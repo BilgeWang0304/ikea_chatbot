@@ -26,7 +26,7 @@ export default function Home() {
       <main className="flex-1 flex justify-center items-center p-6">
         <div className="w-full max-w-4xl bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-ikeaBlue text-3xl font-semibold text-center mb-6">
-            Welcome to IKEA's Chat Assistant!
+            Welcome to IKEA&apos;s Chat Assistant!
           </h2>
           <p className="text-gray-700 text-center mb-8 leading-relaxed">
             Ask anything about our products, services, or stores, and we’re here to help!
