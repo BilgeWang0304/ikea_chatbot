@@ -1,5 +1,6 @@
 import Head from "next/head";
 import ChatBot from "../components/ChatBot";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
 
       {/* Header */}
       <header className="bg-ikeaBlue text-white pl-12 pr-8 flex items-center shadow-lg">
-        <img
+        <Image
           src="./logo.png"
           alt="IKEA Logo"
           height={48}
