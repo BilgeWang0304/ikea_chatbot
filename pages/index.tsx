@@ -14,8 +14,9 @@ export default function Home() {
       {/* Header */}
       <header className="bg-ikeaBlue text-white pl-12 pr-8 flex items-center shadow-lg">
         <Image
-          src="./logo.png"
+          src="/logo.png"
           alt="IKEA Logo"
+          width={96}
           height={48}
           className="h-4 w-auto mr-4"
         />
@@ -23,7 +24,7 @@ export default function Home() {
       </header>
 
       {/* Main Chatbot Section */}
-      <main className="flex-1 flex justify-center items-center p-6">
+      <main className="flex-1 flex justify-center items-center p-6 pb-10">
         <div className="w-full max-w-4xl bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-ikeaBlue text-3xl font-semibold text-center mb-6">
             Welcome to IKEA&apos;s Chat Assistant!
@@ -36,9 +37,9 @@ export default function Home() {
           <div
             className="overflow-hidden rounded-lg border-4 border-ikeaBlue shadow-md"
             style={{
-              height: "700px",
-              minHeight: "700px",
-              padding: "1rem",
+              height: "600px",
+              minHeight: "600px",
+              padding: "3rem",
               backgroundColor: "#f9f9f9",
             }}
           >
@@ -48,7 +49,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-ikeaYellow text-ikeaBlue py-4 text-center shadow-inner">
+      <footer className="bg-ikeaYellow text-ikeaBlue pt-4 text-center shadow-inner">
         <p className="text-sm font-medium">
           © {new Date().getFullYear()} IKEA. All Rights Reserved.
         </p>
